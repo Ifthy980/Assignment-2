@@ -145,13 +145,20 @@ main{
     gap: 20px;
   }
   .stories img{
+    width: 100%;
     border-radius: 18px 18px 0px 0px;
   }
   .story-1{
+    width: 540px;
+    height: 630px;
     border: 1px solid rgb(255, 244, 220);
     border-radius: 18px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background-color: white;
+  }
+  .story-2-div{
+    width: 290px;
+    height: 300px;
   }
   .story-1-text{
     padding: 20px;
@@ -176,6 +183,73 @@ main{
     font-size: 1.50rem;
     font-weight: 700;
   }
+  .btn-3{
+    background-color: #3CD8E8;
+    color: white;
+    padding: 8px 2px;
+    font-size: 18;
+    font-weight: 15;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: -100px;
+  }
+  .btn-4{
+    background-color: rgb(78, 118, 18);
+    color: white;
+    padding: 8px 2px;
+    font-size: 18;
+    font-weight: 15;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: -100px;
+  }
+  .btn-5{
+    background-color: rgb(212, 209, 15);
+    color: white;
+    padding: 8px 2px;
+    font-size: 18;
+    font-weight: 15;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: -100px;
+  }
+  .btn-6{
+    background-color: #26848f;
+    color: white;
+    padding: 8px 2px;
+    font-size: 18;
+    font-weight: 15;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: -100px;
+  }
+  .btn-7{
+    background-color: #be6fc5;
+    color: white;
+    padding: 8px 2px;
+    font-size: 18;
+    font-weight: 15;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: -100px;
+  }
+  .view{
+    background-color: black;
+    color: white;
+    padding: 18px 40px;
+    font-size: 1.05rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 50px;
+  }
+  
 
 
   /* responsive style */
@@ -200,10 +274,35 @@ main{
       flex-direction: column;
 
     }
-    
+    .stories{
+      flex-direction: column;
+    }
+    .story-1{
+      display: none; 
+    }
+    .story-2-div{
+      width: 100%;
+      gap: 8px;
+    }
+    .view{
+      margin-left: 130px;
+    }
 
 
 
 
   }
+
+  /* mediam size device */
+@media screen and (min-width: 576px) and (max-width:992px) {
+  .stories{
+    flex-direction: column;
+  }
+  .story-1{
+    justify-content: center;
+  }
+  .view{
+    margin-left: 240px;
+  }
+}
   
