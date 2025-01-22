@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+
+/* banner section */
+body{
+    font-family: Quicksand;
+    background:linear-gradient(0.00deg, rgba(232, 177, 80, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+/* header{
+  background: white;
+} */
+main{
+  background: url(../image/bg.png);
+  
+}
+.header-content{
+    max-width: 1030px;
+    margin: 0 auto;
+}
+main{
+  max-width: 1030px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+.image-1 >img{
+    width: 100%;
+}
+
+.navbar, .header-content{
+    justify-content: space-around;
+    align-items: center;
+}
+.anchor{
+    gap: 15px;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 1.02rem;
+    font-weight: 600;
+}
+.school{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.bar{
+    display: none;
+}
+.home{
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+.btn-1{
+    background-color: #FF900E;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.10rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+  }
+  .h-content{
+    max-width: 640px;
+  }
+  .btn-2{
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.01rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+  }
+  .header-title{
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  .light-gray{
+    color: rgba(128, 128, 128, 1);
+    font-size: small;
+    font-weight: 500;
+  }
+  .section-1{
+    margin-top: 80px;
+  }
+  .section-title{
+     text-align: center;
+     font-size: 2rem;
+     font-weight: 600;
+  }
+  .section-items{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .item-1{
+    padding: 18px;
+    /* height: 400px;  */
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 245, 255);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+  }
+  .item-2{
+    padding: 18px;
+    /* height: 400px; */
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+  }
+  .item-3{
+    padding: 18px;
+    /* height: 400px; */
+    border: 1px solid rgb(242, 232, 255);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+  }
+  .section-2{
+    margin-top: 140px;
+  }
+  .stories{
+    margin-top: 60px;
+    gap: 20px;
+  }
+  .stories img{
+    border-radius: 18px 18px 0px 0px;
+  }
+  .story-1{
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+  .story-1-text{
+    padding: 20px;
+  }
+  .story-2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .story-2-div{
+    border: 1px solid rgb(255, 244, 220);
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+  .story-2-text{
+    font-size: 1.01rem;
+    font-weight: 700;
+    padding: 20px;
+  }
+  .h5-text{
+    font-size: 1.50rem;
+    font-weight: 700;
+  }
+
+
+  /* responsive style */
+  @media screen and (max-width:576px) {
+    .school, .nav-item, .contact{
+        display: none;
+    }
+    .bar{
+        display: block;
+        margin-left: 220px;
+    }
+    /* .logo-1{
+        margin-left:90px;
+        margin-top: 10px;
+    } */
+    .header-content{
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+    .section-items{
+      flex-direction: column;
+
+    }
+    
+
+
+
+
+  }
+  
